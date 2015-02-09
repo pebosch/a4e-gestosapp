@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:src="@drawable/background"
+		android:contentDescription="@string/descriptionImg"
+		android:scaleType="centerCrop" >
+	</ImageView>
+	
+    <TextView
+        android:id="@+id/tvTitleResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="18sp"
+		android:text="@string/text_tvTitleResults" />
+    
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:uncertainGestureColor="#ff9c25"
+        android:gestureColor="#ff9c25" >
+    </android.gesture.GestureOverlayView>
+    
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f2aa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/text_tvResults" />
+
+</RelativeLayout>

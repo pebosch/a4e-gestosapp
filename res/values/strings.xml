@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gestos App</string>
+    <string name="optionLicencia">Licencia</string>
+    <string name="optionCodigo">Código fuente</string>
+    <string name="optionAyuda">Acerca de</string>
+    <string name="text_tvResults">No se han encontrado resultados</string>
+    <string name="text_tvTitleResults">Dibuja L para escanear un código QR</string>
+    <string name="descriptionImg">ImageView</string>
+
+</resources>
